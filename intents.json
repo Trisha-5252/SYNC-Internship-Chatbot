@@ -1,0 +1,52 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": ""
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is Simplilearn?"],
+            "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform"],
+            "context": ""
+        },
+        {
+            "tag": "course_recommendation",
+            "patterns": ["Suggest a course for me", "Which course is best for beginners?", "Can you recommend a course?"],
+            "responses": ["Sure! If you're a beginner, I recommend starting with our 'Introduction to Programming' course.", "Based on your interests, you might enjoy our 'Digital Marketing Fundamentals' course."],
+            "context": ""
+        },
+        {
+            "tag": "pricing_info",
+            "patterns": ["How much does the courses cost?", "What's the pricing for a specific course?", "Tell me about course fees"],
+            "responses": ["Course prices vary based on the subject. You can find detailed pricing information on our website.", "Course fees depend on the course you choose. Check out our website for specific pricing details."],
+            "context": ""
+        },
+        {
+            "tag": "certification_process",
+            "patterns": ["How do I get certified?", "Tell me about course certificates", "Is there a completion certificate?"],
+            "responses": ["Upon successful completion of a course, you'll receive a certificate that you can download and share on your professional profiles.", "Our courses come with completion certificates. Once you finish a course, you can download your certificate as a PDF."],
+            "context": ""
+        },
+        {
+            "tag": "cancel_enrollment",
+            "patterns": ["Can I cancel my enrollment?", "What's the process to cancel a course?", "I want to withdraw from a course"],
+            "responses": ["Yes, you can cancel your enrollment. Please log in to your account and navigate to the 'My Courses' section for cancellation options.", "If you wish to withdraw from a course, go to your account and find the cancellation instructions under 'My Courses'."],
+            "context": ""
+        }
+    ]
+}
